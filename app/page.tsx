@@ -831,6 +831,10 @@ export default function Sort() {
               ? 'Fidelity, Robinhood, Coinbase는 각 소유자의 상표입니다. sort.는 독립적인 툴이며, 해당 기업들과 제휴 관계가 없습니다.'
               : 'Fidelity, Robinhood, and Coinbase are trademarks of their respective owners. sort. is not affiliated with or endorsed by these entities.'}
           </p>
+          <p className="text-slate-400 text-sm mt-4">
+            {lang === 'ko' ? '문의: ' : 'Contact: '}
+            <a href="mailto:sort.app.help@gmail.com" className="text-orange-400 hover:underline">sort.app.help@gmail.com</a>
+          </p>
         </div>
       </footer>
 
