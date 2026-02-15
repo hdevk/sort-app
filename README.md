@@ -34,9 +34,7 @@ It does **not** calculate taxes, determine gains or losses, or provide financial
 
 ## Currently Supported
 
-- Fidelity
-
-*Note: Robinhood and Coinbase no longer provide CSV downloads for tax documents.*
+- Fidelity, Roninhood and Coinbase
 
 ---
 
