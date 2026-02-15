@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# sort.
+**Broker Trade CSV Organizer & Converter**
 
-## Getting Started
+sort. is a lightweight web tool that helps individuals organize and standardize broker-provided CSV trade files for easier review and record-keeping.
 
-First, run the development server:
+The application runs entirely with local, in-browser processing.  
+Uploaded files are not stored on any server and are removed from memory immediately after processing.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🔗 **Live Demo:** [sort-app-two.vercel.app](https://sort-app-two.vercel.app)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Why I Built This
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+I built sort. to solve a real problem I repeatedly ran into while preparing tax documents and organizing transaction data.
 
-## Learn More
+Manually cleaning and reformatting broker CSV files—especially when dealing with multiple sources—quickly became time-consuming and error-prone. After hitting the same frustration over and over, I decided to automate the process properly instead of fixing spreadsheets every tax season.
 
-To learn more about Next.js, take a look at the following resources:
+sort. focuses on **data organization and formatting only**.  
+It does **not** calculate taxes, determine gains or losses, or provide financial, legal, or tax advice.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Key Features
 
-## Deploy on Vercel
+- Upload multiple broker CSV files at once
+- Automatically organizes and standardizes trade data
+- 100% local processing (no server-side file storage)
+- Simple upload → review → download workflow
+- Bilingual support (English / 한국어)
+- Designed for individual users
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Currently Supported
+
+- Fidelity
+
+*Note: Robinhood and Coinbase no longer provide CSV downloads for tax documents.*
+
+---
+
+## Tech Stack
+
+- Next.js 16
+- TypeScript
+- Tailwind CSS
+- Client-side CSV processing
+- Deployed on Vercel
+
+---
+
+## Disclaimer
+
+sort. is a data formatting utility only.  
+It does NOT calculate taxes, perform Wash Sale adjustments, or generate IRS-ready forms.  
+Users are responsible for reviewing and verifying all outputs before use.
+
+---
+
+## Contact
+
+For questions or feedback: **support@iamcraft.co**
+
+---
+
+## License
+
+© 2026 sort. All rights reserved.
