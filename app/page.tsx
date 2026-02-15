@@ -497,19 +497,6 @@ export default function Sort() {
         </div>
       </header>
 
-      {/* Beta Banner */}
-      <div className="px-4 mb-4">
-        <div className="max-w-md mx-auto">
-          <div className="bg-emerald-500/20 border border-emerald-500/40 rounded-full py-2 px-4 text-center">
-            <p className="text-emerald-400 text-sm font-medium">
-              {lang === 'ko' 
-                ? '🎉 무료 베타 기간: 2/6 - 2/13' 
-                : '🎉 Free Beta: Feb 6 - Feb 13'}
-            </p>
-          </div>
-        </div>
-      </div>
-
       {/* Step Indicator */}
       <div className="px-4 mb-6">
         <div className="max-w-md mx-auto flex items-center justify-center gap-4">
@@ -833,7 +820,7 @@ export default function Sort() {
           </p>
           <p className="text-slate-400 text-sm mt-4">
             {lang === 'ko' ? '문의: ' : 'Contact: '}
-            <a href="mailto:sort.app.help@gmail.com" className="text-orange-400 hover:underline">sort.app.help@gmail.com</a>
+            <a href="mailto:support@iamcraft.co" className="text-orange-400 hover:underline">support@iamcraft.co</a>
           </p>
         </div>
       </footer>
@@ -1025,12 +1012,12 @@ export default function Sort() {
 
                   <div>
                     <h3 className="text-white font-semibold mb-1">12. 준거법 및 관할</h3>
-                    <p>본 약관은 미국 텍사스 주 법률의 적용을 받습니다. 모든 법적 조치는 텍사스 주 해리스 카운티의 주 법원 또는 연방 법원에서 독점적으로 제기되어야 합니다.</p>
+                    <p>본 약관은 미국 텍사스 주 법률의 적용을 받습니다. 모든 법적 조치는 텍사스 주 법원 또는 연방 법원에서 독점적으로 제기되어야 합니다.</p>
                   </div>
 
                   <div>
                     <h3 className="text-white font-semibold mb-1">13. 문의</h3>
-                    <p>약관에 관한 문의: sort.app.help@gmail.com</p>
+                    <p>약관에 관한 문의: support@iamcraft.co</p>
                   </div>
                 </>
               ) : (
@@ -1098,12 +1085,12 @@ export default function Sort() {
 
                   <div>
                     <h3 className="text-white font-semibold mb-1">12. Governing Law &amp; Jurisdiction</h3>
-                    <p>These Terms are governed by the laws of the State of Texas, United States, without regard to conflict of law principles. Any legal action shall be brought exclusively in the state or federal courts located in Harris County, Texas.</p>
+                    <p>These Terms are governed by the laws of the State of Texas, United States, without regard to conflict of law principles. Any legal action shall be brought exclusively in the state or federal courts located in Texas.</p>
                   </div>
 
                   <div>
                     <h3 className="text-white font-semibold mb-1">13. Contact</h3>
-                    <p>For questions regarding these Terms: sort.app.help@gmail.com</p>
+                    <p>For questions regarding these Terms: support@iamcraft.co</p>
                   </div>
                 </>
               )}
